@@ -24,7 +24,7 @@ question_bank = {
         {
             "question": "What is the capital of France?",
             "choices": ["A. London", "B. Berlin", "C. Paris", "D. Madrid"],
-            "correct": "Paris",
+            "correct": "C",
         }
     ],
     "History": [
@@ -56,7 +56,7 @@ question_bank = {
 def display_welcome():
     """Prints the welcome message."""
     print("-" * 50)
-    print("WELCOME TO INTERACTIVE QUIZ!")
+    print("\t\t WELCOME TO INTERACTIVE QUIZ!")
     print("-" * 50 + "\n")
 
 
