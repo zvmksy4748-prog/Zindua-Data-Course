@@ -117,10 +117,10 @@ def run_quiz(questions, time_limit=10):
 
                 # Check correctness using branching if statements
                 if user_input == q["correct"]:
-                    print(f"✅ Correct! (Time taken: {elapsed_time:.1f}s)")
+                    print(f"Correct! (Time taken: {elapsed_time:.1f}s)")
                     score += 1
                 else:
-                    print(f"❌ Wrong! The correct answer was {q['correct']}.")
+                    print(f"Wrong! The correct answer was {q['correct']}.")
                 break
 
             except ValueError as e:
